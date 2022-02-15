@@ -19,7 +19,6 @@ VueWrapper {
             class="hidden-pokemon"
             src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
           />
-          <!--v-if-->
         </div>
       </div>
     </div>,
@@ -349,10 +348,10 @@ VueWrapper {
                       "active": true,
                       "allowRecurse": true,
                       "deps": Array [
-                        [Circular],
                         Set {
                           [Circular],
                         },
+                        [Circular],
                       ],
                       "fn": [Function],
                       "onTrack": undefined,
@@ -363,7 +362,11 @@ VueWrapper {
                   },
                   "effect": [Circular],
                 },
-                "deps": Array [],
+                "deps": Array [
+                  Set {
+                    [Circular],
+                  },
+                ],
                 "fn": [Function],
                 "parent": undefined,
                 "scheduler": [Function],
@@ -411,7 +414,7 @@ VueWrapper {
                     "children": null,
                     "component": null,
                     "dirs": null,
-                    "dynamicChildren": null,
+                    "dynamicChildren": Array [],
                     "dynamicProps": Array [
                       "src",
                     ],
@@ -420,11 +423,12 @@ VueWrapper {
                       class="hidden-pokemon"
                       src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
                     />,
-                    "key": null,
+                    "key": 0,
                     "patchFlag": 8,
                     "props": Object {
                       "alt": "pokemon",
                       "class": "hidden-pokemon",
+                      "key": 0,
                       "src": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
                     },
                     "ref": null,
@@ -440,33 +444,6 @@ VueWrapper {
                     "transition": null,
                     "type": "img",
                   },
-                  Object {
-                    "__v_isVNode": true,
-                    "__v_skip": true,
-                    "anchor": null,
-                    "appContext": null,
-                    "children": "v-if",
-                    "component": null,
-                    "dirs": null,
-                    "dynamicChildren": Array [],
-                    "dynamicProps": null,
-                    "el": <!--v-if-->,
-                    "key": null,
-                    "patchFlag": 0,
-                    "props": null,
-                    "ref": null,
-                    "scopeId": null,
-                    "shapeFlag": 8,
-                    "slotScopeIds": null,
-                    "ssContent": null,
-                    "ssFallback": null,
-                    "staticCount": 0,
-                    "suspense": null,
-                    "target": null,
-                    "targetAnchor": null,
-                    "transition": null,
-                    "type": Symbol(Comment),
-                  },
                 ],
                 "component": null,
                 "dirs": null,
@@ -480,7 +457,6 @@ VueWrapper {
                     class="hidden-pokemon"
                     src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
                   />
-                  <!--v-if-->
                 </div>,
                 "key": null,
                 "patchFlag": 0,
@@ -512,7 +488,7 @@ VueWrapper {
                 "children": null,
                 "component": null,
                 "dirs": null,
-                "dynamicChildren": null,
+                "dynamicChildren": Array [],
                 "dynamicProps": Array [
                   "src",
                 ],
@@ -521,11 +497,12 @@ VueWrapper {
                   class="hidden-pokemon"
                   src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
                 />,
-                "key": null,
+                "key": 0,
                 "patchFlag": 8,
                 "props": Object {
                   "alt": "pokemon",
                   "class": "hidden-pokemon",
+                  "key": 0,
                   "src": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg",
                 },
                 "ref": null,
@@ -541,33 +518,6 @@ VueWrapper {
                 "transition": null,
                 "type": "img",
               },
-              Object {
-                "__v_isVNode": true,
-                "__v_skip": true,
-                "anchor": null,
-                "appContext": null,
-                "children": "v-if",
-                "component": null,
-                "dirs": null,
-                "dynamicChildren": Array [],
-                "dynamicProps": null,
-                "el": <!--v-if-->,
-                "key": null,
-                "patchFlag": 0,
-                "props": null,
-                "ref": null,
-                "scopeId": null,
-                "shapeFlag": 8,
-                "slotScopeIds": null,
-                "ssContent": null,
-                "ssFallback": null,
-                "staticCount": 0,
-                "suspense": null,
-                "target": null,
-                "targetAnchor": null,
-                "transition": null,
-                "type": Symbol(Comment),
-              },
             ],
             "dynamicProps": null,
             "el": <div>
@@ -579,7 +529,6 @@ VueWrapper {
                   class="hidden-pokemon"
                   src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
                 />
-                <!--v-if-->
               </div>
             </div>,
             "key": null,
@@ -642,7 +591,6 @@ VueWrapper {
               class="hidden-pokemon"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
             />
-            <!--v-if-->
           </div>
         </div>,
         "key": null,
@@ -751,7 +699,6 @@ VueWrapper {
               class="hidden-pokemon"
               src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
             />
-            <!--v-if-->
           </div>
         </div>,
         "key": null,
@@ -813,7 +760,6 @@ VueWrapper {
         class="hidden-pokemon"
         src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/dream-world/1.svg"
       />
-      <!--v-if-->
     </div>
   </div>,
 }
