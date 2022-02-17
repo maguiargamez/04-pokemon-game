@@ -5,6 +5,7 @@
     <div v-else>
       <h1>¿Quién es este pokémon?</h1>
       <PokemonPicture :pokemonId="pokemon.id" :showPokemon="showPokemon"/>
+      
       <PokemonOptions 
         :pokemons= "pokemonArr"
         @selectionPokemon="checkAnswer"
